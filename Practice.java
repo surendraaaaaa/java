@@ -1,14 +1,13 @@
 public class Practice{
-    public static void main(String[] args){
-        String person_name="surendr";
-        String Person_city="hyderabad";
-    String temp=person_name;
-    person_name=Person_city;
-    Person_city=temp;
+
+ public static void main(String[] args){
+String s="100";
+System.out.println(s);
+int i=Integer.parseInt(s);
+System.out.println(s);
 
 
-        System.out.println(person_name);
-        System.out.println(Person_city);
-
+ }
     }
-}
+
+    
