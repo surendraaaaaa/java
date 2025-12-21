@@ -3,7 +3,7 @@ public class Array2D {
         int[][] a = { {1, 2, 3}, {1, 2, 3} };
 
         for(int i = 0; i < a.length; i++) {
-            for(int j = 0; j < a[i].length; j++) {
+            for(int j = 0; j <3; j++) {
                 System.out.print(a[i][j] + " ");
             }
             System.out.println();
