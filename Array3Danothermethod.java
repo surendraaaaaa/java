@@ -14,8 +14,8 @@ n[0][2][2]=10;
 
 
 for(int i=0;i<3;i++){
-for(int j=0;j<3;j++){
-for(int k=0;k<3;k++){
+for(int j=0;j<n[i].length;j++){
+for(int k=0;k<n[i][j].length;k++){
 System.out.print(n[i][j][k]+" ");
 }
 System.out.println();
